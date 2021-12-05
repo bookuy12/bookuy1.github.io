@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+* {
+    --black: #323645;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: url('img/login-01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    text-align: center;
+}
+
+.login-google {
+    background-color: #323645;
+    height: 40px;
+    width: 270px;
+}
+
+.login-google span {
+    padding-left: 10px;
+}
+
+.login-google:hover {
+    background-color: #2ecc71;
+}
+
+.login-google:hover,
+.login-google span {
+    color: white;
+}
+
+.box h1 {
+    font-family: Poppins;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.box input[name="gmail"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px;
+    padding: 10px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    background-color: #323645;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px;
+    padding: 10px 10px;
+    height: 40px;
+    width: 270px;
+    outline: none;
+    color: white;
+    background-color: #323645;
+    border-radius: 13px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 320px;
+    border-color: #3498db;
+}
+
+.box input[name="logen"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px;
+    padding: 10px 10px;
+    width: 270px;
+    color: white;
+    background-color: #FF9062;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+.box p {
+    text-align: justify;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box p[name="in"] {
+    text-align: center;
+    color: #c2bfbf;
+    text-transform: lowercase;
+    font-size: smaller;
+}
+
+.box p[name="pass"] {
+    text-align: justify;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box p[name="rem"] {
+    text-align: justify;
+    color: white;
+    font-size: smaller;
+}
+
+.col-1 a {
+    width: 300px;
+    height: 35px;
+    float: left;
+    text-align: justify;
+    /* padding: 2px 3px; */
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+.col-1 {
+    width: 450px;
+}
+
+.col-1 label {
+    padding-left: 10px;
+    text-align: start;
+    /* padding: 2px 3px; */
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.col-1 a {
+    font-size: 11px;
+}
+
+a {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    text-decoration: none !important;
+}
+
+.register {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    text-decoration: none !important;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+}
+
+.logo a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    text-align: justify;
+    width: 191px;
+    height: 47px;
+    left: 74px;
+    top: 67px;
+    text-decoration: none;
+}
+
+.col-1 label:hover,
+.col-1 a:hover,
+a:hover,
+h2:hover {
+    color: #2C5B8A;
+}
+
+.garis {
+    height: 40px;
+    padding-top: 20px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.garis .garis-awal,
+.garis-akhir {
+    align-self: center;
+    height: 2px;
+    width: 60px;
+    background-color: var(--black);
+}
+
+.create-acc {
+    margin-top: 10px;
+}
+
+.create-acc a {
+    font-size: 11px;
+}
+
+.create-acc p {
+    font-size: 11px;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
